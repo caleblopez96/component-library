@@ -1,13 +1,15 @@
 import { useState } from "react";
 import "./App.css";
-import Button1 from "./Components/Button/Button1";
+import ButtonCounter from "./Components/Button Counter/ButtonCounter.jsx";
+import Toggle from "./Components/Toggle/Toggle.jsx";
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <>
-      <Button1 />
+      <ButtonCounter text="text" />
+      <Toggle />
     </>
   );
 }

@@ -1,11 +1,15 @@
 import { useState } from "react";
 import "./App.css";
-import Card from "./Components/Card";
+import Button1 from "./Components/Button/Button1";
 
 function App() {
   const [count, setCount] = useState(0);
 
-  return <Card />;
+  return (
+    <>
+      <Button1 />
+    </>
+  );
 }
 
 export default App;
